@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57117478182D3FEF00E1B2A3 /* TemplateClassStatics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57117476182D3FEF00E1B2A3 /* TemplateClassStatics.cpp */; };
+		5711747B182D6E5400E1B2A3 /* PrivateMemberAccess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57117479182D6E5400E1B2A3 /* PrivateMemberAccess.cpp */; };
+		5711747F182D774F00E1B2A3 /* OverloadingWithTemplateSpec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5711747D182D774F00E1B2A3 /* OverloadingWithTemplateSpec.cpp */; };
+		57117482182F7C4900E1B2A3 /* OperatorNew.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57117480182F7C4900E1B2A3 /* OperatorNew.cpp */; };
 		57595B25182CED4D00AC8A6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57595B24182CED4D00AC8A6E /* main.cpp */; };
 		57595B27182CED4D00AC8A6E /* CppLab.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 57595B26182CED4D00AC8A6E /* CppLab.1 */; };
+		57595B2F182CEF7000AC8A6E /* VariadicTemplatesWithFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57595B2D182CEF7000AC8A6E /* VariadicTemplatesWithFunctions.cpp */; };
+		57595B33182CF0AA00AC8A6E /* TypeAlias.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57595B31182CF0AA00AC8A6E /* TypeAlias.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +31,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		57117476182D3FEF00E1B2A3 /* TemplateClassStatics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TemplateClassStatics.cpp; sourceTree = "<group>"; };
+		57117477182D3FEF00E1B2A3 /* TemplateClassStatics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateClassStatics.h; sourceTree = "<group>"; };
+		57117479182D6E5400E1B2A3 /* PrivateMemberAccess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrivateMemberAccess.cpp; sourceTree = "<group>"; };
+		5711747A182D6E5400E1B2A3 /* PrivateMemberAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateMemberAccess.h; sourceTree = "<group>"; };
+		5711747D182D774F00E1B2A3 /* OverloadingWithTemplateSpec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OverloadingWithTemplateSpec.cpp; sourceTree = "<group>"; };
+		5711747E182D774F00E1B2A3 /* OverloadingWithTemplateSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverloadingWithTemplateSpec.h; sourceTree = "<group>"; };
+		57117480182F7C4900E1B2A3 /* OperatorNew.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OperatorNew.cpp; sourceTree = "<group>"; };
+		57117481182F7C4900E1B2A3 /* OperatorNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperatorNew.h; sourceTree = "<group>"; };
 		57595B21182CED4D00AC8A6E /* CppLab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppLab; sourceTree = BUILT_PRODUCTS_DIR; };
 		57595B24182CED4D00AC8A6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		57595B26182CED4D00AC8A6E /* CppLab.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CppLab.1; sourceTree = "<group>"; };
+		57595B2D182CEF7000AC8A6E /* VariadicTemplatesWithFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VariadicTemplatesWithFunctions.cpp; sourceTree = "<group>"; };
+		57595B2E182CEF7000AC8A6E /* VariadicTemplatesWithFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariadicTemplatesWithFunctions.h; sourceTree = "<group>"; };
+		57595B31182CF0AA00AC8A6E /* TypeAlias.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TypeAlias.cpp; sourceTree = "<group>"; };
+		57595B32182CF0AA00AC8A6E /* TypeAlias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeAlias.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +78,30 @@
 		57595B23182CED4D00AC8A6E /* CppLab */ = {
 			isa = PBXGroup;
 			children = (
+				57595B30182CEF7800AC8A6E /* Labs */,
 				57595B24182CED4D00AC8A6E /* main.cpp */,
 				57595B26182CED4D00AC8A6E /* CppLab.1 */,
 			);
 			path = CppLab;
+			sourceTree = "<group>";
+		};
+		57595B30182CEF7800AC8A6E /* Labs */ = {
+			isa = PBXGroup;
+			children = (
+				57595B2D182CEF7000AC8A6E /* VariadicTemplatesWithFunctions.cpp */,
+				57595B2E182CEF7000AC8A6E /* VariadicTemplatesWithFunctions.h */,
+				57595B31182CF0AA00AC8A6E /* TypeAlias.cpp */,
+				57595B32182CF0AA00AC8A6E /* TypeAlias.h */,
+				57117476182D3FEF00E1B2A3 /* TemplateClassStatics.cpp */,
+				57117477182D3FEF00E1B2A3 /* TemplateClassStatics.h */,
+				57117479182D6E5400E1B2A3 /* PrivateMemberAccess.cpp */,
+				5711747A182D6E5400E1B2A3 /* PrivateMemberAccess.h */,
+				5711747D182D774F00E1B2A3 /* OverloadingWithTemplateSpec.cpp */,
+				5711747E182D774F00E1B2A3 /* OverloadingWithTemplateSpec.h */,
+				57117480182F7C4900E1B2A3 /* OperatorNew.cpp */,
+				57117481182F7C4900E1B2A3 /* OperatorNew.h */,
+			);
+			path = Labs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				57595B25182CED4D00AC8A6E /* main.cpp in Sources */,
+				57595B2F182CEF7000AC8A6E /* VariadicTemplatesWithFunctions.cpp in Sources */,
+				57595B33182CF0AA00AC8A6E /* TypeAlias.cpp in Sources */,
+				57117478182D3FEF00E1B2A3 /* TemplateClassStatics.cpp in Sources */,
+				5711747B182D6E5400E1B2A3 /* PrivateMemberAccess.cpp in Sources */,
+				5711747F182D774F00E1B2A3 /* OverloadingWithTemplateSpec.cpp in Sources */,
+				57117482182F7C4900E1B2A3 /* OperatorNew.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +173,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -161,7 +205,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -214,6 +258,7 @@
 				57595B2C182CED4D00AC8A6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

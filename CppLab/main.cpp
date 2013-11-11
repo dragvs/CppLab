@@ -8,11 +8,27 @@
 
 #include <iostream>
 
+#include "VariadicTemplatesWithFunctions.h"
+#include "TypeAlias.h"
+#include "TemplateClassStatics.h"
+#include "PrivateMemberAccess.h"
+#include "OverloadingWithTemplateSpec.h"
+#include "OperatorNew.h"
+
+
 int main(int argc, const char * argv[])
 {
-
-	// insert code here...
-	std::cout << "Hello, World!\n";
+	std::cout << "\n- LABS START -\n";
+	
+	VariadicTemplatesWithFunctions::run();
+	TypeAlias::run();
+	TemplateClassStatics::run();
+	PrivateMemberAccess::run();
+	OverloadingWithTemplateSpec::run();
+	OperatorNew::run();
+	
+	std::cout << "\n- LABS END -\n";
+	
     return 0;
 }
 
